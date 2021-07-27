@@ -1,0 +1,76 @@
+body {
+    background: lightblue;
+    height: 100vh;
+}
+
+h1, p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: darkred;
+    padding: 0px;
+}
+
+#wins-losses {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+#bingoCard {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    font-family: Helvetica;
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+}
+
+#f, .selected {
+    background-color: LightCoral;
+}
+
+.btns {
+    appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    text-decoration: none;
+    font: menu;
+    color: ButtonText;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 8px;
+    font-size: 22px;
+}
+
+#btnns {
+    text-align: center;
+}
+
+#b {
+    background-color: lightseagreen;
+}
+
+#i {
+    background-color: lightseagreen;
+}
+
+#n {
+    background-color: lightseagreen;
+}
+
+#g {
+    background-color: lightseagreen;
+}
+
+#o {
+    background-color: lightseagreen;
+}

@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Bingo</title>
+</head>
+
+<body>
+    <h1>BINGO</h1>
+    <table id="wins-losses">
+        <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+        </tr>
+        <tr>
+            <td id="wins"></td>
+            <td id="losses"></td>
+        </tr>
+    </table>
+    <table id="bingoCard"></table>
+    <div id=callerD>
+    </div>
+    <div id="btnns">
+        <button id="new-game-random" class="btns">New Card</button>
+        <button id="new-game-specified" class="btns">New Card Specified</button>
+        <button id="i-won" class="btns" style="visibility: hidden;">Win</button>
+        <button id="i-lost" class="btns" style="visibility: hidden;">Lose</button>
+        <button id="caller" class="btns" style="visibility: hidden;">Caller</button>
+    </div>
+</body>
+
+</html>
+<script src = "bingo.js"></script>
